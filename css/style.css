@@ -13,3 +13,66 @@ h1 {
 #project-title {
   text-align: center;
 }
+
+.container {
+  /*background-color: salmon;*/
+  height: 100vh;
+}
+
+.nav {
+  padding: 10px;
+}
+
+.aboutme {
+  text-align: center;
+  /*background-color: deeppink;*/
+  cursor: pointer;
+}
+
+.projects {
+  text-align: center;
+  /*background-color: dodgerblue;*/
+  cursor: pointer;
+}
+
+.contacts {
+  text-align: center;
+  /*background-color: orange;*/
+  cursor: pointer;
+}
+
+.content {
+  width: 95%;
+  /*background-color: rebeccapurple;*/
+  margin: 15px auto;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: auto;
+}
+
+.context {
+  padding: 20px;
+  height: 100%;
+  background-color: gainsboro;
+  border-radius: 15px;
+}
+
+.greetings, .contact-details, .project-details {
+  text-align: center;
+}
+
+button {
+  background-color: dodgerblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+button a {
+  color: white;
+}
+
+button a:hover {
+  color: black;
+}
