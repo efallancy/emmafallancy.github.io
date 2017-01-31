@@ -1,6 +1,10 @@
 ( function() {
   var displayAboutMe = function() {
     $( "#aboutme" ).on( "click", function() {
+      $( "#contacts" ).removeClass( "nav-selected" );
+      $( "#projects" ).removeClass( "nav-selected" );
+      $( "#aboutme" ).addClass( "nav-selected" );
+
       var content = $( ".content" );
       content.html( "" ); // Clear the content before appending info to it
 
@@ -12,6 +16,10 @@
 
   var displayProjects = function() {
     $( "#projects" ).on( "click", function() {
+      $( "#contacts" ).removeClass( "nav-selected" );
+      $( "#projects" ).addClass( "nav-selected" );
+      $( "#aboutme" ).removeClass( "nav-selected" );
+
       var content = $( ".content" );
       content.html( "" ); // Clear the content before appending info to it
 
@@ -31,6 +39,10 @@
 
   var displayContacts = function() {
     $( "#contacts" ).on( "click", function() {
+      $( "#contacts" ).addClass( "nav-selected" );
+      $( "#projects" ).removeClass( "nav-selected" );
+      $( "#aboutme" ).removeClass( "nav-selected" );
+
       var content = $( ".content" );
       content.html( "" ); // Clear the content before appending info to it
 
@@ -170,7 +182,7 @@
   }
 
   $( document ).ready( function() {
-    
+
     displayGreeting();
     displayAboutMe();
     displayProjects();

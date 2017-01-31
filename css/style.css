@@ -7,8 +7,13 @@ h1 {
   text-align: center;
 }
 
+h5 {
+  text-align: center;
+}
+
 .nav {
   text-align: center;
+  padding: 10px;
 }
 
 #project-title {
@@ -20,27 +25,26 @@ h1 {
   height: 100vh;
 }
 
-.nav {
-  padding: 10px;
+.aboutme, .projects, .contacts {
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  
 }
 
-.aboutme {
-  text-align: center;
-  /*background-color: deeppink;*/
-  cursor: pointer;
+.aboutme:hover, .projects:hover, .contacts:hover {
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
 }
 
-.projects {
-  text-align: center;
-  /*background-color: dodgerblue;*/
-  cursor: pointer;
+.nav-selected {
+  color: dodgerblue;
+  font-style: italic;
 }
 
-.contacts {
-  text-align: center;
-  /*background-color: orange;*/
-  cursor: pointer;
-}
 
 .content {
   width: 95%;
