@@ -114,7 +114,7 @@
 
     var greetings = $( "<div></div>" ).addClass( "greetings" );
 
-    if( currentHours > 0 && currentHours < 6 ) {
+    if( currentHours >= 0 && currentHours < 6 ) {
 
       var firstMessage = $( "<p></p>" ).html( "Oh, hello there! You're awake." );
 
@@ -170,8 +170,7 @@
   }
 
   $( document ).ready( function() {
-    console.log( 'Ready' );
-
+    
     displayGreeting();
     displayAboutMe();
     displayProjects();
