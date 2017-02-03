@@ -12,7 +12,7 @@ body {
   font-family: "Quicksand", Monospace;
   height: 100vh;
   overflow: scroll;
-  background-image: linear-gradient( #02C3BD, #85CB33, #85CB33, #02C3BD );
+  background-image: linear-gradient( #02C3BD, #85CB33, #85CB33, #85CB33, #02C3BD );
 }
 
 .nav {
