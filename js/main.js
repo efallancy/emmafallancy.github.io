@@ -34,6 +34,7 @@ $( document ).ready( function() {
     $( ".nav a" ).css( {
       "color": "#ffffff",
       "font-weight": "900",
+      "text-shadow": "1px 1px #dcdcdc",
       "background-color": "rgba( 0, 0, 0, 0.45)"
     } );
 
@@ -168,5 +169,6 @@ $( document ).ready( function() {
       "font-weight": "",
       "text-shadow": ""
     } );
-  })
+
+  });
 });

@@ -23,6 +23,7 @@ body {
 .nav a {
   text-decoration: none;
   color: #000011;
+  text-shadow: 2px 1px #dcdcdc;
 }
 
 .nav a:hover {
