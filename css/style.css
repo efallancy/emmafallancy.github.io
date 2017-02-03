@@ -11,6 +11,7 @@ h5 {
   text-align: center;
 }
 
+
 .nav {
   text-align: center;
   padding: 10px;
@@ -29,7 +30,7 @@ h5 {
   text-align: center;
   cursor: pointer;
   font-size: 18px;
-  
+
 }
 
 .aboutme:hover, .projects:hover, .contacts:hover {
