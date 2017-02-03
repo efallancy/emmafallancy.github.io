@@ -1,84 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-width: 320px;
+}
+
 body {
-  font-family: 'Quicksand', Monospace, sans-serif;
+  font-family: "Quicksand", Monospace;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(#02C3BD, #85CB33);
 }
-
-h1 {
-  font-family: 'Boogaloo', cursive;
-  text-align: center;
-}
-
-h5 {
-  text-align: center;
-}
-
 
 .nav {
-  text-align: center;
-  padding: 10px;
-}
-
-#project-title {
+  margin: 30px 0;
   text-align: center;
 }
 
-.container {
-  /*background-color: salmon;*/
-  height: 100vh;
-}
-
-.aboutme, .projects, .contacts {
-  text-align: center;
-  cursor: pointer;
-  font-size: 18px;
-
-}
-
-.aboutme:hover, .projects:hover, .contacts:hover {
-  border: 1px solid black;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
-  box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
-}
-
-.nav-selected {
-  color: dodgerblue;
-  font-style: italic;
-}
-
-
-.content {
-  width: 95%;
-  /*background-color: rebeccapurple;*/
-  margin: 15px auto;
-  box-sizing: border-box;
-  padding: 20px;
-  overflow: auto;
-}
-
-.context {
-  padding: 20px;
-  height: 100%;
-  background-color: gainsboro;
-  border-radius: 15px;
-}
-
-.greetings, .contact-details, .project-details {
-  text-align: center;
-}
-
-button {
-  background-color: dodgerblue;
-}
-
-a {
+.nav a {
   text-decoration: none;
+  color: #000011;
 }
 
-button a {
-  color: white;
+.nav a:hover {
+  text-decoration: underline;
 }
 
-button a:hover {
+.catchphrase, .projects-me, .contact-me {
+  margin: 15% auto;
+  text-align: justify;
+}
+
+.about-me {
+  margin: 3% 3%;
+  text-align: justify;
+  background-color: rgba( 220, 220, 220, 0.35 );
+  border-radius: 25px;
+  padding: 15px 25px;
+}
+
+.about-me p {
+  font-size: 20px;
+}
+
+span a {
   color: black;
 }
