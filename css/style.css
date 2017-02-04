@@ -41,29 +41,63 @@ body {
 }
 
 .project-list {
-  margin: 5% 0;
+  margin: 5px 0;
+  box-sizing: border-box;
 }
 
 .project-card {
   background-color: #dcdcdc;
   padding: 5px 5px;
   border-radius: 15px;
+  margin: 10px 5px;
 }
 
 .project-details {
   padding: 3px 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.project-name {
+  font-size: 22px;
+}
+
+.project-name-xdeploy {
+  font-size: 22px;
+  cursor: wait;
+}
+
+.project-name:hover, .project-name-xdeploy:hover {
+  text-shadow: 0.16rem -0.16rem 0 rgba( 255, 0, 255, 0.75),
+               -0.16rem -0.16rem 0 rgba( 0, 255, 255, 0.75),
+               0 0.2rem 0 rgba( 255, 255, 0, 0.75);
+  font-size: 28px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .project-image {
   padding: 8px;
-  background-color: #aaaaaa;
   border-radius: 10px;
-  /*border: 1px solid black;*/
+  text-align: center;
 }
 
 .project-image img {
-  width: 280px;
+  width: 90%;
   height: 200px;
+  border: 2px solid #aaaaaa;
+  border-radius: 12px;
+}
+
+.project-icon-github:hover {
+  color: #333;
+  font-size: 36px;
+  text-shadow: 0.16rem -0.16rem 0 rgba( 255, 0, 255, 0.75),
+               -0.16rem -0.16rem 0 rgba( 0, 255, 255, 0.75),
+               0 0.2rem 0 rgba( 255, 255, 0, 0.75);
 }
 
 .about-me {
@@ -97,6 +131,7 @@ span a {
   text-align: center;
 }
 
+
 .contact-icons {
   text-align: center;
 }
@@ -104,10 +139,6 @@ span a {
 .contact-icons a {
   text-decoration: none;
   color: black;
-}
-
-.project-card {
-  margin: 3% auto;
 }
 
 i {

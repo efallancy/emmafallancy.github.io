@@ -1,3 +1,5 @@
+( function() {
+
 console.log( "Hey! You've found me in the console." );
 console.log( "There are a few projects that I made throughout my Web Development Immersive course, plus more which are not listed." );
 console.log( "If you're interested in getting in touch with me:" );
@@ -190,3 +192,5 @@ $( document ).ready( function() {
 
   });
 });
+
+})();
