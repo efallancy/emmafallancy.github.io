@@ -30,9 +30,28 @@ body {
   text-decoration: underline;
 }
 
-.catchphrase, .projects-me, .contact-me {
+.catchphrase, .contact-me {
   margin: 10% auto;
   text-align: justify;
+}
+
+.projects-me {
+  margin: 5% 5%;
+  text-align: justify;
+}
+
+.project-list {
+  margin: 5% 0;
+}
+
+.project-card {
+  background-color: #dcdcdc;
+  padding: 5px 5px;
+  border-radius: 15px;
+}
+
+.project-details {
+  padding: 3px 15px;
 }
 
 .about-me {
@@ -58,11 +77,6 @@ span a {
   color: black;
 }
 
-.contact-me-mail, .contact-me-linkedin, .contact-me-twitter, .contact-me-github {
-  padding: 3px;
-  text-align: center;
-}
-
 .about-title, .projects-title, .contact-title {
   text-shadow: 0.25rem -0.25rem 0 rgba( 255, 0, 255, 0.75),
                -0.25rem -0.25rem 0 rgba( 0, 255, 255, 0.75),
@@ -78,6 +92,10 @@ span a {
 .contact-icons a {
   text-decoration: none;
   color: black;
+}
+
+.project-card {
+  margin: 3% auto;
 }
 
 i {

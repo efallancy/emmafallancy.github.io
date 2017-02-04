@@ -7,6 +7,14 @@ console.log( "LinkedIn: linkedin.com/in/emmanuelfallancy" );
 
 $( document ).ready( function() {
 
+  // image preload
+  var contactsImg = new Image();
+  var aboutImg = new Image();
+  var projectsImg = new Image();
+  contactsImg.src = "assets/images/contacts_1.gif";
+  aboutImg.src = "assets/images/about_1.gif";
+  projectsImg.src = "assets/images/projects_1.gif";
+
   // Contact me section
   $( ".span-contacts" ).hover( function() {
 
@@ -90,6 +98,12 @@ $( document ).ready( function() {
     $( ".span-linkedin" ).css( "opacity", "0" );
     $( ".span-opac" ).css( "opacity", "0" );
 
+    $( ".nav a" ).css( {
+      "color": "#dcdcdc",
+      "font-weight": "900",
+      "text-shadow": "2px 2px #000000"
+    } );
+
   }, function() {
     $( "body" ).css( {
       "background-image": "",
@@ -109,6 +123,12 @@ $( document ).ready( function() {
     $( ".span-contacts" ).css( "opacity", "1" );
     $( ".span-projects" ).css( "opacity", "1" );
     $( ".span-opac" ).css( "opacity", "1" );
+
+    $( ".nav a" ).css( {
+      "color": "",
+      "font-weight": "",
+      "text-shadow": ""
+    } );
 
   });
 
