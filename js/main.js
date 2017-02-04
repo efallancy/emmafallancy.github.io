@@ -7,15 +7,15 @@ console.log( "Email: emmanuel.fallancy@gmail.com" );
 console.log( "Twitter: @fancyfallancy" );
 console.log( "LinkedIn: linkedin.com/in/emmanuelfallancy" );
 
-$( document ).ready( function() {
+// image preload
+var contactsImg = new Image();
+var aboutImg = new Image();
+var projectsImg = new Image();
+contactsImg.src = "assets/images/contacts_1.gif";
+aboutImg.src = "assets/images/about_1.gif";
+projectsImg.src = "assets/images/projects_1.gif";
 
-  // image preload
-  var contactsImg = new Image();
-  var aboutImg = new Image();
-  var projectsImg = new Image();
-  contactsImg.src = "assets/images/contacts_1.gif";
-  aboutImg.src = "assets/images/about_1.gif";
-  projectsImg.src = "assets/images/projects_1.gif";
+$( document ).ready( function() {
 
   // Contact me section
   $( ".span-contacts" ).hover( function() {
