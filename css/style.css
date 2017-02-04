@@ -54,6 +54,18 @@ body {
   padding: 3px 15px;
 }
 
+.project-image {
+  padding: 8px;
+  background-color: #aaaaaa;
+  border-radius: 10px;
+  /*border: 1px solid black;*/
+}
+
+.project-image img {
+  width: 280px;
+  height: 200px;
+}
+
 .about-me {
   margin: 3% 3%;
   text-align: justify;
