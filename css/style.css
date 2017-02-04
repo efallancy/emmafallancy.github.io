@@ -47,6 +47,13 @@ body {
   font-size: 20px;
 }
 
+b {
+  text-shadow: 0.16rem -0.16rem 0 rgba( 255, 0, 255, 0.75),
+               -0.16rem -0.16rem 0 rgba( 0, 255, 255, 0.75),
+               0 0.2rem 0 rgba( 255, 255, 0, 0.75);
+  font-size: 22px;
+}
+
 span a {
   color: black;
 }
