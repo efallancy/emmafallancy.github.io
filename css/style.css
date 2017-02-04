@@ -12,7 +12,7 @@ body {
   font-family: "Quicksand", Monospace;
   height: 100vh;
   overflow: scroll;
-  background-image: linear-gradient( #02C3BD, #85CB33, #85CB33, #85CB33, #02C3BD );
+  background-color: ghostwhite;
 }
 
 .nav {
@@ -31,7 +31,7 @@ body {
 }
 
 .catchphrase, .projects-me, .contact-me {
-  margin: 15% auto;
+  margin: 10% auto;
   text-align: justify;
 }
 
@@ -49,4 +49,62 @@ body {
 
 span a {
   color: black;
+}
+
+.contact-me-mail, .contact-me-linkedin, .contact-me-twitter, .contact-me-github {
+  padding: 3px;
+  text-align: center;
+}
+
+.about-title, .projects-title, .contact-title {
+  text-shadow: 0.25rem -0.25rem 0 rgba( 255, 0, 255, 0.75),
+               -0.25rem -0.25rem 0 rgba( 0, 255, 255, 0.75),
+               0 0.5rem 0 rgba( 255, 255, 0, 0.75);
+  font-size: 42px;
+  text-align: center;
+}
+
+.contact-icons {
+  text-align: center;
+}
+
+.contact-icons a {
+  text-decoration: none;
+  color: black;
+}
+
+i {
+  padding: 2px 8px;
+}
+
+i.mail:hover {
+  transform: translate3d( 5px, -5px, 0 );
+  border-radius: 20%;
+  box-shadow: -5px 5px 3px #dddddd;
+  background-color: #ffffff;
+  color: #c71610;
+}
+
+i.twitter:hover {
+  transform: translate3d( 5px, -5px, 0 );
+  border-radius: 20%;
+  box-shadow: -5px 5px 3px #dddddd;
+  background-color: #ffffff;
+  color: #0084b4;
+}
+
+i.linkedin:hover {
+  transform: translate3d( 5px, -5px, 0 );
+  border-radius: 20%;
+  box-shadow: -5px 5px 3px #dddddd;
+  background-color: #ffffff;
+  color: #0077B5;
+}
+
+i.github:hover {
+  transform: translate3d( 5px, -5px, 0 );
+  border-radius: 20%;
+  box-shadow: -5px 5px 3px #dddddd;
+  background-color: #ffffff;
+  color: #333;
 }

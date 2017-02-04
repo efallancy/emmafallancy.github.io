@@ -138,7 +138,6 @@ $( document ).ready( function() {
 
     $( ".nav a" ).css( {
       "color": "#ffffff",
-      "font-style": "italic",
       "font-weight": "900",
       "text-shadow": "2px 2px #000000"
     } );
@@ -165,7 +164,6 @@ $( document ).ready( function() {
 
     $( ".nav a" ).css( {
       "color": "",
-      "font-style": "",
       "font-weight": "",
       "text-shadow": ""
     } );
