@@ -69,7 +69,7 @@ $( document ).ready( function() {
   // About section
   $( ".span-about" ).hover( function() {
     $( "body" ).css( {
-      "background-image": "url( 'assets/images/fancy.jpg' )",
+      "background-image": "url( 'assets/images/about_1.gif' )",
       "background-repeat": "no-repeat",
       "background-size": "cover"
     } );
