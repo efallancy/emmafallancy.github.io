@@ -12,7 +12,7 @@ body {
   font-family: "Quicksand", Monospace;
   height: 100vh;
   overflow: scroll;
-  background-color: #ghostwhite;
+  background-color: #DEDEE4;
 }
 
 .nav {
@@ -46,7 +46,7 @@ body {
 }
 
 .project-card {
-  background-color: #dcdcdc;
+  background-color: #FAF9F9;
   padding: 5px 5px;
   border-radius: 15px;
   margin: 10px 8px;
@@ -103,7 +103,7 @@ body {
 .about-me, .about-skills {
   margin: 3% 3%;
   text-align: justify;
-  background-color: rgba( 220, 220, 220, 0.35 );
+  background-color: rgba( 250, 249, 249 , 0.45 );
   border-radius: 25px;
   padding: 15px 25px;
 }
@@ -132,7 +132,11 @@ span a {
 }
 
 .about-skills-title {
+  text-shadow: 0.16rem -0.16rem 0 rgba( 255, 0, 255, 0.75),
+               -0.16rem -0.16rem 0 rgba( 0, 255, 255, 0.75),
+               0 0.2rem 0 rgba( 255, 255, 0, 0.75);
   font-size: 35px;
+  text-align: center;
 }
 
 .about-skills-icon {

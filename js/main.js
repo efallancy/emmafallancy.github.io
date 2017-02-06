@@ -42,10 +42,9 @@ $( document ).ready( function() {
     $( ".span-linkedin" ).css( "opacity", "0" );
     $( ".span-opac" ).css( "opacity", "0" );
     $( ".nav a" ).css( {
-      "color": "#ffffff",
       "font-weight": "900",
-      "text-shadow": "1px 1px #dcdcdc",
-      "background-color": "rgba( 0, 0, 0, 0.45)"
+      "color": "#dcdcdc",
+      "text-shadow": "2px 2px #000000",
     } );
 
   }, function() {
@@ -70,8 +69,7 @@ $( document ).ready( function() {
     $( ".nav a" ).css( {
       "color": "",
       "font-weight": "",
-      "text-shadow": "",
-      "background-color": ""
+      "text-shadow": ""
     } );
 
   } );
