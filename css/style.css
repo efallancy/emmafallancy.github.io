@@ -100,7 +100,7 @@ body {
                0 0.2rem 0 rgba( 255, 255, 0, 0.75);
 }
 
-.about-me {
+.about-me, .about-skills {
   margin: 3% 3%;
   text-align: justify;
   background-color: rgba( 220, 220, 220, 0.35 );
@@ -123,7 +123,7 @@ span a {
   color: black;
 }
 
-.about-title, .projects-title, .contact-title {
+.about-title, .projects-title, .contact-title, .about-skills-title {
   text-shadow: 0.25rem -0.25rem 0 rgba( 255, 0, 255, 0.75),
                -0.25rem -0.25rem 0 rgba( 0, 255, 255, 0.75),
                0 0.3rem 0 rgba( 255, 255, 0, 0.75);
@@ -131,6 +131,27 @@ span a {
   text-align: center;
 }
 
+.about-skills-title {
+  font-size: 35px;
+}
+
+.about-skills-icon {
+  margin: 3% 0;
+  padding: 0 120px;
+  text-align: center;
+  line-height: 320%;
+}
+
+i.skill-icons {
+  font-size: 50px;
+  margin: 0 5px;
+}
+
+svg {
+  width: 66px;
+  height: 45px;
+  margin: 0 6px;
+}
 
 .contact-icons {
   text-align: center;
@@ -175,8 +196,4 @@ i.github:hover {
   box-shadow: -5px 5px 3px #dddddd;
   background-color: #ffffff;
   color: #333;
-}
-
-i.skill-icons {
-  font-size: 50px;
 }
