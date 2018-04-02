@@ -47,6 +47,12 @@ $( document ).ready( function() {
       "text-shadow": "2px 2px #000000",
     } );
 
+    $( ".new-site-link" ).css( "background-color", "#25ced1" );
+    $( ".new-site-link" ).css( "color", "#fffffc" );
+    $( ".new-site-link" ).css( "padding", "5px" );
+    $( ".new-site-link" ).css( "border-radius", "5px" );
+    $( ".new-site-link" ).css( "text-decoration", "none" );
+
   }, function() {
     $( "body" ).css( {
       "background-image": "",
@@ -71,6 +77,12 @@ $( document ).ready( function() {
       "font-weight": "",
       "text-shadow": ""
     } );
+
+    $( ".new-site-link" ).css( "background-color", "" );
+    $( ".new-site-link" ).css( "color", "inherit" );
+    $( ".new-site-link" ).css( "padding", "0" );
+    $( ".new-site-link" ).css( "border-radius", "0" );
+    $( ".new-site-link" ).css( "text-decoration", "underline" );
 
   } );
 
@@ -104,6 +116,12 @@ $( document ).ready( function() {
       "text-shadow": "2px 2px #000000"
     } );
 
+    $( ".new-site-link" ).css( "background-color", "#25ced1" );
+    $( ".new-site-link" ).css( "color", "#fffffc" );
+    $( ".new-site-link" ).css( "padding", "5px" );
+    $( ".new-site-link" ).css( "border-radius", "5px" );
+    $( ".new-site-link" ).css( "text-decoration", "none" );
+
   }, function() {
     $( "body" ).css( {
       "background-image": "",
@@ -129,6 +147,12 @@ $( document ).ready( function() {
       "font-weight": "",
       "text-shadow": ""
     } );
+
+    $( ".new-site-link" ).css( "background-color", "" );
+    $( ".new-site-link" ).css( "color", "inherit" );
+    $( ".new-site-link" ).css( "padding", "0" );
+    $( ".new-site-link" ).css( "border-radius", "0" );
+    $( ".new-site-link" ).css( "text-decoration", "underline" );
 
   });
 
@@ -162,6 +186,12 @@ $( document ).ready( function() {
       "text-shadow": "2px 2px #000000"
     } );
 
+    $( ".new-site-link" ).css( "background-color", "#25ced1" );
+    $( ".new-site-link" ).css( "color", "#fffffc" );
+    $( ".new-site-link" ).css( "padding", "5px" );
+    $( ".new-site-link" ).css( "border-radius", "5px" );
+    $( ".new-site-link" ).css( "text-decoration", "none" );
+
   }, function() {
     $( "body" ).css( {
       "background-image": "",
@@ -187,6 +217,12 @@ $( document ).ready( function() {
       "font-weight": "",
       "text-shadow": ""
     } );
+
+    $( ".new-site-link" ).css( "background-color", "" );
+    $( ".new-site-link" ).css( "color", "inherit" );
+    $( ".new-site-link" ).css( "padding", "0" );
+    $( ".new-site-link" ).css( "border-radius", "0" );
+    $( ".new-site-link" ).css( "text-decoration", "underline" );
 
   });
 });

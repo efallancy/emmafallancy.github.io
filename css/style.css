@@ -35,6 +35,10 @@ body {
   text-align: justify;
 }
 
+.new-site-link {
+  color: inherit;
+}
+
 .projects-me {
   margin: 5% 5%;
   text-align: justify;
